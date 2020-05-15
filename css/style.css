@@ -327,7 +327,7 @@ nav ul li a:hover {
 }
 
 #main .content .text h2 {
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 #main .content .text h2:hover {
@@ -389,13 +389,13 @@ nav ul li a:hover {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   margin-top: 4.5rem;
 }
 
 .caption {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -551,7 +551,7 @@ footer p {
   .barbtn {
     display: block;
   }
-  ul {
+  nav ul {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -598,6 +598,22 @@ footer p {
     margin: auto;
     padding: 4px;
   }
+  #main2 {
+    height: 38vh;
+    margin-top: 4rem;
+  }
+  .caption {
+    height: 38vh;
+  }
+  .caption .text {
+    padding-top: 5rem;
+  }
+  .caption .text h1 {
+    font-size: 50px;
+  }
+  .caption .text p {
+    font-size: 16px;
+  }
   #main3 .content_2 .item .item-txt h3 {
     font-size: medium;
   }
@@ -626,6 +642,9 @@ footer p {
   }
   #main h6 {
     font-size: 9px;
+  }
+  #main .content .text h2, #main .content .text p {
+    font-size: larger;
   }
   #sidebar .side-content .text p {
     display: none;
@@ -661,6 +680,109 @@ footer p {
   }
   #main3 .content_2 .item .item-txt p {
     margin-top: auto;
+  }
+}
+
+@media (max-width: 508px) {
+  #main .content .text h2, #main .content .text p {
+    font-size: medium;
+  }
+  #sidebar .side-content .text h3 {
+    font-size: medium;
+  }
+  #sidebar .side-content .text h6 {
+    font-size: 9px;
+  }
+  #main2 {
+    height: 20vh;
+    margin-top: 2.5rem;
+  }
+  .caption {
+    height: 20vh;
+  }
+  .caption .text {
+    padding: 3rem .8rem .8rem 0;
+  }
+  .caption .text h1 {
+    font-size: 17px;
+  }
+  .caption .text p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 455px) {
+  #main .content {
+    padding: 15px 3px;
+  }
+}
+
+@media (max-width: 382px) {
+  nav {
+    height: 55px;
+  }
+  nav .logo {
+    line-height: 55px;
+  }
+  nav ul {
+    margin-right: 80px;
+  }
+  nav ul li {
+    line-height: 80px;
+  }
+  .barbtn {
+    font-size: 25px;
+    line-height: 55px;
+    margin-right: 30px;
+  }
+  label.logo {
+    font-size: 25px;
+    padding-left: 17px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 3px;
+  }
+  #showcase {
+    min-height: 120px;
+    margin-bottom: 35px;
+  }
+  .container {
+    width: 95%;
+  }
+  #main {
+    padding: 0 18px;
+  }
+  #main .content-bar {
+    margin: 1.2rem 0 0.8rem 0;
+  }
+  #main .text h6 {
+    font-size: 6px;
+    margin: 0;
+    padding: 0;
+  }
+  #main .text h2 {
+    margin: 2px 0;
+  }
+  #main3 .content_1 .img_box .img_text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 365px) {
+  #main .content .text h2, #main .content .text p {
+    font-size: small;
+  }
+  #sidebar .side-content .text h3 {
+    font-size: small;
+  }
+  #sidebar .side-content .text h6 {
+    font-size: 6px;
+  }
+  .item .item-txt h3 {
+    padding-bottom: 4rem;
+  }
+  .item .item-txt p {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
